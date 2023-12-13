@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+// body{
+//   background-color: radial-gradient(circle, #1512bd 0%, #03010c 100%) !important;
+// }
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 25px;
+  border-radius: 8px;
+  text-align: center;
+}
+.content {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  min-height: 50vh;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.footer {
+  a {
+    color: rgb(255, 255, 255) !important;
+  }
+  a:hover {
+    color: #858585 !important;
+  }
+}
+
+.title-carousel-image {
+  color: #0815cc;
+  text-shadow: 1px 2px yellow, 2px 1px white, 5px 2px yellow, -1px -1px yellow;
+  font-size: 44pt;
+  line-height: 42pt;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.subtitle-carousel-image {
+  font-size: 18pt;
+  line-height: 16pt;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.btn-login a {
+  text-decoration: underline !important;
+}
+.header .dropdown-menu.show {
+  left: -100px !important;
+}
