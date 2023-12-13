@@ -58,7 +58,7 @@ export const Login = () => {
               </Button>
               <Button
                 variant="primary"
-                href="/registrarse"
+                href="/web-bank-duck/registrarse"
               >
                 <BsPlusCircleFill /> Registrarse
               </Button>

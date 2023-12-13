@@ -12,7 +12,7 @@ function NavBar() {
     >
       <Navbar.Brand
         as={Link}
-        to="/"
+        to="/web-bank-duck/"
       >
         <img
           src={logo}
@@ -31,37 +31,37 @@ function NavBar() {
         <Nav className="mr-auto header">
           <Nav.Link
             as={Link}
-            to="/inicio"
+            to="/web-bank-duck/inicio"
           >
             Inicio
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/mision"
+            to="/web-bank-duck/mision"
           >
             Misión
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/vision"
+            to="/web-bank-duck/vision"
           >
             Visión
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/contacto"
+            to="/web-bank-duck/contacto"
           >
             Contacto
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/acerca"
+            to="/web-bank-duck/acerca"
           >
             Acerca de
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/creditos"
+            to="/web-bank-duck/creditos"
           >
             Creditos
           </Nav.Link>
@@ -71,13 +71,13 @@ function NavBar() {
           >
             <NavDropdown.Item
               as={Link}
-              to="/comunicados"
+              to="/web-bank-duck/comunicados"
             >
               Comunicados
             </NavDropdown.Item>
             <NavDropdown.Item
               as={Link}
-              to="/login"
+              to="/web-bank-duck/login"
             >
               Iniciar Sesión
             </NavDropdown.Item>

@@ -17,33 +17,33 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Routes>
+      <Routes  >
         <Route
-          path="/"
+          path="/web-bank-duck/"
           element={<Home />}
         />
         <Route
-          path="/inicio"
+          path="/web-bank-duck/inicio"
           element={<Home />}
         />
         <Route
-          path="/mision"
+          path="/web-bank-duck/mision"
           element={<Mission />}
         />
         <Route
-          path="/vision"
+          path="/web-bank-duck/vision"
           element={<Vision />}
         />
         <Route
-          path="/acerca"
+          path="/web-bank-duck/acerca"
           element={<About />}
         />
         <Route
-          path="/creditos"
+          path="/web-bank-duck/creditos"
           element={<Credits />}
         />
         <Route
-          path="/comunicados"
+          path="/web-bank-duck/comunicados"
           element={
             <Comunicados
               comunicados={[
@@ -70,15 +70,15 @@ function App() {
           }
         />
         <Route
-          path="/contacto"
+          path="/web-bank-duck/contacto"
           element={<Contact />}
         />
         <Route
-          path="/login"
+          path="/web-bank-duck/login"
           element={<Login />}
         />
         <Route
-          path="/registrarse"
+          path="/web-bank-duck/registrarse"
           element={<Register />}
         />
       </Routes>
