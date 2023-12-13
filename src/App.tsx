@@ -23,27 +23,27 @@ function App() {
           element={<Home />}
         />
         <Route
-          path="/web-bank-duck/inicio"
+          path="/web-bank-duck/inicio/"
           element={<Home />}
         />
         <Route
-          path="/web-bank-duck/mision"
+          path="/web-bank-duck/mision/"
           element={<Mission />}
         />
         <Route
-          path="/web-bank-duck/vision"
+          path="/web-bank-duck/vision/"
           element={<Vision />}
         />
         <Route
-          path="/web-bank-duck/acerca"
+          path="/web-bank-duck/acerca/"
           element={<About />}
         />
         <Route
-          path="/web-bank-duck/creditos"
+          path="/web-bank-duck/creditos/"
           element={<Credits />}
         />
         <Route
-          path="/web-bank-duck/comunicados"
+          path="/web-bank-duck/comunicados/"
           element={
             <Comunicados
               comunicados={[
@@ -70,15 +70,15 @@ function App() {
           }
         />
         <Route
-          path="/web-bank-duck/contacto"
+          path="/web-bank-duck/contacto/"
           element={<Contact />}
         />
         <Route
-          path="/web-bank-duck/login"
+          path="/web-bank-duck/login/"
           element={<Login />}
         />
         <Route
-          path="/web-bank-duck/registrarse"
+          path="/web-bank-duck/registrarse/"
           element={<Register />}
         />
       </Routes>

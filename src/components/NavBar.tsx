@@ -31,55 +31,61 @@ function NavBar() {
         <Nav className="mr-auto header">
           <Nav.Link
             as={Link}
-            to="/web-bank-duck/inicio"
+            to="/web-bank-duck/inicio/"
           >
             Inicio
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/web-bank-duck/mision"
+            to="/web-bank-duck/mision/"
           >
             Misión
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/web-bank-duck/vision"
+            to="/web-bank-duck/vision/"
           >
             Visión
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/web-bank-duck/contacto"
+            to="/web-bank-duck/contacto/"
           >
             Contacto
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/web-bank-duck/acerca"
+            to="/web-bank-duck/acerca/"
           >
             Acerca de
           </Nav.Link>
           <Nav.Link
             as={Link}
-            to="/web-bank-duck/creditos"
+            to="/web-bank-duck/creditos/"
           >
             Creditos
           </Nav.Link>
-          <NavDropdown 
-            title="Más" 
+          <NavDropdown
+            title="Más"
             id="basic-nav-dropdown"
           >
             <NavDropdown.Item
               as={Link}
-              to="/web-bank-duck/comunicados"
+              to="/web-bank-duck/comunicados/"
             >
               Comunicados
             </NavDropdown.Item>
             <NavDropdown.Item
               as={Link}
-              to="/web-bank-duck/login"
+              to="/web-bank-duck/login/"
             >
               Iniciar Sesión
+            </NavDropdown.Item>
+            <NavDropdown.Item
+              as={Link}
+              to="/web-bank-duck/registrarse/"
+            >
+              Registrarse
             </NavDropdown.Item>
           </NavDropdown>
         </Nav>

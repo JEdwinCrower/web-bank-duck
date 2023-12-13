@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import { BsFillUnlockFill, BsPlusCircleFill } from "react-icons/bs";
-import { NavLink } from "react-router-dom";
+import { BsFillUnlockFill } from "react-icons/bs";
+// import { NavLink } from "react-router-dom";
 import Swal from "sweetalert2";
 
 export const Login = () => {
@@ -63,12 +63,12 @@ export const Login = () => {
               >
                 <BsFillUnlockFill /> Iniciar Sesión
               </Button>
-              <NavLink
+              {/* <NavLink
                 className="btn btn-primary"
                 to="/web-bank-duck/registrarse"
               >
                 <BsPlusCircleFill /> Registrarse
-              </NavLink>
+              </NavLink> */}
             </div>
           </Form>
         </Col>
