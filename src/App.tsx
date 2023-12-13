@@ -1,5 +1,5 @@
 // import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
@@ -19,31 +19,31 @@ function App() {
       <NavBar />
       <Routes  >
         <Route
-          path="/web-bank-duck/"
+          path="/"
           element={<Home />}
         />
         <Route
-          path="/web-bank-duck/inicio/"
+          path="/inicio/"
           element={<Home />}
         />
         <Route
-          path="/web-bank-duck/mision/"
+          path="/mision/"
           element={<Mission />}
         />
         <Route
-          path="/web-bank-duck/vision/"
+          path="/vision/"
           element={<Vision />}
         />
         <Route
-          path="/web-bank-duck/acerca/"
+          path="/acerca/"
           element={<About />}
         />
         <Route
-          path="/web-bank-duck/creditos/"
+          path="/creditos/"
           element={<Credits />}
         />
         <Route
-          path="/web-bank-duck/comunicados/"
+          path="/comunicados/"
           element={
             <Comunicados
               comunicados={[
@@ -70,15 +70,15 @@ function App() {
           }
         />
         <Route
-          path="/web-bank-duck/contacto/"
+          path="/contacto/"
           element={<Contact />}
         />
         <Route
-          path="/web-bank-duck/login/"
+          path="/login/"
           element={<Login />}
         />
         <Route
-          path="/web-bank-duck/registrarse/"
+          path="/registrarse/"
           element={<Register />}
         />
       </Routes>
