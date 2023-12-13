@@ -51,19 +51,19 @@ function App() {
                   titulo: "Comunicado 1",
                   contenido:
                     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellat in et magnam vitae esse voluptas, incidunt, sint corrupti quo totam veniam adipisci mollitia possimus animi similique cupiditate facilis? Iure?",
-                  archivo: "/",
+                  archivo: "/web-bank-duck/",
                 },
                 {
                   titulo: "Comunicado 2",
                   contenido:
                     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellat in et magnam vitae esse voluptas, incidunt, sint corrupti quo totam veniam adipisci mollitia possimus animi similique cupiditate facilis? Iure?",
-                  archivo: "/",
+                  archivo: "/web-bank-duck/",
                 },
                 {
                   titulo: "Comunicado 3",
                   contenido:
                     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit repellat in et magnam vitae esse voluptas, incidunt, sint corrupti quo totam veniam adipisci mollitia possimus animi similique cupiditate facilis? Iure?",
-                  archivo: "/",
+                  archivo: "/web-bank-duck/",
                 },
               ]}
             />
