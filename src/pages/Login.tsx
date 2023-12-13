@@ -1,34 +1,41 @@
-import React, { useState } from 'react';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
-import { BsFillUnlockFill, BsPlusCircleFill } from 'react-icons/bs';
-import Swal from 'sweetalert2';
+import React, { useState } from "react";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { BsFillUnlockFill, BsPlusCircleFill } from "react-icons/bs";
+import { NavLink } from "react-router-dom";
+import Swal from "sweetalert2";
 
 export const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!email || !password) {
       Swal.fire({
-        icon: 'error',
-        title: 'Oops...',
-        text: 'Por favor, rellena todos los campos!',
+        icon: "error",
+        title: "Oops...",
+        text: "Por favor, rellena todos los campos!",
       });
     } else {
-      Swal.fire('Iniciado!', 'Has iniciado sesión.', 'success');
-      setEmail('');
-      setPassword('');
+      Swal.fire("Iniciado!", "Has iniciado sesión.", "success");
+      setEmail("");
+      setPassword("");
     }
   };
 
   return (
     <Container className="content">
       <Row className="g-2">
-        <Col sm="12" md="12">
+        <Col
+          sm="12"
+          md="12"
+        >
           <h1>Inicio de Sesión</h1>
         </Col>
-        <Col sm="12" md="12">
+        <Col
+          sm="12"
+          md="12"
+        >
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formEmail">
               <Form.Label>Email</Form.Label>
@@ -56,12 +63,12 @@ export const Login = () => {
               >
                 <BsFillUnlockFill /> Iniciar Sesión
               </Button>
-              <Button
-                variant="primary"
-                href="/web-bank-duck/registrarse"
+              <NavLink
+                className="btn btn-primary"
+                to="/web-bank-duck/registrarse"
               >
                 <BsPlusCircleFill /> Registrarse
-              </Button>
+              </NavLink>
             </div>
           </Form>
         </Col>
